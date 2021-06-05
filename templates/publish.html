@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!--<html xmlns="http://www.w3.org/1999/xhtml">-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>论坛</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 样式-->
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/static/layui/css/layui.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+<!--    <link rel="stylesheet" href="css/bootstrap-responsive.css">-->
+<!--    <link rel="stylesheet" href="css/prettyPhoto.css"/>-->
+<!--    <link rel="stylesheet" href="css/flexslider.css"/>-->
+    <link rel="stylesheet" href="/static/css/custom-styles.css">
+    <link rel="stylesheet" href="/static/css/layui-button.css">
+	<link rel="stylesheet" href="/static/layui/css/modules/layer/default/layer.css">
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="/static/css/style-ie.css"/>
+    <![endif]-->
+
+    <!-- Favicons图标 -->
+    <link rel="shortcut icon" href="/static/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/img/apple-touch-icon-114x114.png">
+
+    <!-- js -->
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
+    <script src="/static/js/jquery.prettyPhoto.js"></script>
+    <script src="/static/js/jquery.flexslider.js"></script>
+    <script src="/static/js/jquery.custom.js"></script>
+    <script src="/static/layui/layui.js"></script>
+
+    <style>
+        body {background: url(/static/background/home-2.png) repeat center;}
+        #date {
+            width: 316px;
+            height: 30px;
+        }
+        .a-upload {
+            border: 1px solid transparent;
+    padding: 0 18px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background: #fa9420;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-user-select: none;
+    *display: inline;
+    *zoom: 1
+}
+
+.a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.a-upload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}
+    </style>
+</head>
+
+
+
+
+<h3 align="center">   </h3>
+<form accept-charset="UTF-8" action="/publish/" class="publish" id="new_topic" method="post"  enctype="multipart/form-data">
+    {% csrf_token %}
+    <table width="100%" border="0" cellspacing="0" cellpadding="6">
+        <colgroup>
+            <col width="250">
+            <col>
+        </colgroup>
+        <tbody>
+
+        <tr>
+            <th valign="top">活动名称</th>
+            <td>
+                <label>
+                    <input required id="topic_title" maxlength="80" name="t_title" size="60" type="text" style="width: 300px;">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <th valign="top">地点类型</th>
+            <td>
+                <div>
+                    <select name="location_kind" style="width: 314px;">
+                        <option>闵行校区</option>
+                        <option>徐汇校区</option>
+                        <option>医学院校区</option>
+                        <option>线上</option>
+                        <option>其他</option>
+                    </select>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th valign="top">具体地点</th>
+            <td>
+                <label>
+                    <input required id="topic_title" maxlength="80" name="location" size="60" type="text" style="width: 300px;">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <th valign="top">活动人数</th>
+            <td>
+                <label>
+                    <input required id="topic_introduce" maxlength="80" name="t_number" size="60" type="text" style="width: 300px;">
+                </label>
+            </td>
+        </tr>
+
+        <tr>
+            <th valign="top">活动时间</th>
+            <td>
+                <label>
+                    <input type="text" name="t_time" id="date" lay-verify="date"  autocomplete="off" class="layui-input">
+                </label>
+            </td>
+        </tr>
+
+        <tr>
+            <th valign="top">活动内容</th>
+            <td>
+                <div class="body_count">
+                    <textarea style="width: 700px;" cols="62" rows="10" name="t_content"></textarea>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th>联系方式</th>
+            <td>
+                <div>
+                    <select lay-filter="contact" name="contact_kind" style="width: 314px;">
+                        {% for kind in kinds %}
+                            <option value="{{ kind.id }}">{{ kind.k_name }}</option>
+                        {% endfor %}
+                        
+                        <option>邮箱</option>
+                        <option>QQ</option>
+                        <option>微信</option>
+                        <option>手机号</option>
+                    </select>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th valign="top"></th>
+            <td>
+                <div class="body_count" lay-verify="detial_contact">
+                    <textarea style="width: 300px;" cols="62" rows="1" name="t_contact"></textarea>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <th>封面图</th>
+            <td>
+
+                <div>
+                    <a href="javascript:;" class="a-upload">上传图片
+                    <input type="file" name="t_photo" accept="image/*">
+                    </a>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <th>类别</th>
+            <td>
+                <div>
+                    <select name="t_kind" style="width: 314px;">
+                        {% for kind in kinds %}
+                            <option value="{{ kind.id }}">{{ kind.k_name }}</option>
+                        {% endfor %}
+                        
+                        <option>社团</option>
+                        <option>演出</option>
+                        <option>讲座</option>
+                        <option>志愿者</option>
+                        <option>艺术</option>
+                        <option>舞蹈</option>
+                        <option>电影</option>
+                        <option>学习</option>
+                        <option>篮球</option>
+                        <option>足球</option>
+                        <option>羽毛球</option>
+                        <option>乒乓球</option>
+                        <option>网球</option>
+                        <option>排球</option>
+                        <option>桌球</option>
+                        <option>跑步</option>
+                        <option>游泳</option>
+                        <option>桌游</option>
+                        <option>烘焙</option>
+                        <option>电竞</option>
+                    </select>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <th></th>
+            <td>
+                <button class="layui-btn" type="submit" >发布活动</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+
+<!-- 尾部 -->
+<div class="footer-container">
+    <div class="container">
+        <div style="margin-top: 30px" class="row">
+            <div class="span12 footer-col footer-sub">
+                <div class="row no-margin">
+                    <div class="span6"><span class="left">交集，上海交通大学活动论坛</span>
+                    </div>
+                    <div class="span6">
+                            <span class="right">
+                                <a href="https://sports.sjtu.edu.cn/pc/#/">体育场馆预约</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                                <a href="http://studyroom.lib.sjtu.edu.cn/index.asp">小组自习室</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                                <a href="https://tongqu.sjtu.edu.cn/">同去网</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                                <a href="/contact">联系我们</a>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- 尾部结束 -->
+
+<!-- 回到顶端 -->
+<div id="toTop" class="hidden-phone hidden-tablet">回到顶端</div>
+
+<script>
+layui.use(['form', 'layedit', 'laydate'], function(){
+  var form = layui.form
+  ,layer = layui.layer
+  ,layedit = layui.layedit
+  ,laydate = layui.laydate;
+  
+  //日期
+  laydate.render({
+    elem: '#date'
+  });
+  laydate.render({
+    elem: '#date1'
+  });
+  
+  //创建一个编辑器
+  var editIndex = layedit.build('LAY_demo_editor');
+  
+  //自定义验证规则
+  form.verify({
+    title: function(value){
+      if(value.length < 5){
+        return '标题至少得5个字符啊';
+      }
+    }
+    ,pass: [
+      /^[\S]{6,12}$/
+      ,'密码必须6到12位，且不能出现空格'
+    ]
+    ,content: function(value){
+      layedit.sync(editIndex);
+    }
+  });
+});
+function pop_up(msg) {
+    layer.msg('<span style="display:block;margin: auto;text-align: center;">'+msg+'</span>', {
+        //1:正确；2:错误；3:询问；4:锁定；5:失败；6：成功；7:警告；16：加载
+        icon : 5,
+        shift : 6, //抖动效果
+        time : 1000
+    });
+  }
+</script>
+</body>
+</html>

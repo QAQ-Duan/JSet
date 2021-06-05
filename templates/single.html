@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!--<html xmlns="http://www.w3.org/1999/xhtml">-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>论坛</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../static/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../static/layuiadmin/style/admin.css" media="all">
+    <link rel="stylesheet" href="../static/layuiadmin/style/login.css" media="all">
+
+    <!-- 样式-->
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="/static/css/prettyPhoto.css"/>
+    <link rel="stylesheet" href="/static/css/flexslider.css"/>
+    <link rel="stylesheet" href="/static/css/custom-styles.css">
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/style-ie.css"/>
+    <![endif]-->
+
+    <!-- Favicons图标 -->
+    <link rel="shortcut icon" href="/static/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/img/apple-touch-icon-114x114.png">
+
+    <!-- js -->
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
+    <script src="/static/js/jquery.prettyPhoto.js"></script>
+    <script src="/static/js/jquery.flexslider.js"></script>
+    <script src="/static/js/jquery.custom.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $("#btn-blog-next").click(function () {
+                $('#blogCarousel').carousel('next')
+            });
+            $("#btn-blog-prev").click(function () {
+                $('#blogCarousel').carousel('prev')
+            });
+
+            $("#btn-client-next").click(function () {
+                $('#clientCarousel').carousel('next')
+            });
+            $("#btn-client-prev").click(function () {
+                $('#clientCarousel').carousel('prev')
+            });
+
+        });
+
+        $(window).load(function () {
+
+            $('.flexslider').flexslider({
+                animation: "slide",
+                slideshow: true,
+                start: function (slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+
+    </script>
+</head>
+
+
+<body>
+{# <div class="color-bar-1"></div> #}
+{# <div class="color-bar-2 color-bg"></div> #}
+
+
+{# <div class="container main-container"> #}
+
+<!-- 加上这行背景代码后不显示-->
+{# div class="layadmin-user-login layadmin-user-display-show" id="LAY-user-login" style="background-image:url('../static/background/login-4.png'); background-size:100% 100%; background-repeat:no-repeat;display: none "> #}
+<div style="background-color:#FFF8F2;width:1600px">
+
+<div class="container">
+    <!-- logo，导航栏 -->
+
+    <div class="row header">
+
+        <!-- 左上角图片和logo -->
+        <div class="span5 logo" style="width: 250px;float:left;margin-left: 40px">
+            <h5 style="font-size: 28px">交 集</h5>
+        </div>
+
+        <!-- 导航栏 -->
+        <div class="span7 navigation" style="float: right;margin-right: 20px;">
+            <div class="navbar hidden-phone"style="height: 40px;">
+
+                <ul class="nav">
+                    <li><a href="/home">个人主页</a></li>
+                    <li><a href="/publish">发布活动</a>&nbsp;</li>
+                    <li><a href="/all-0-0-0">全部活动</a></li>
+                    {% if uid %}
+                        <li><a>{{ uid }}，欢迎你</a></li>
+                        <li><a href="/login">退出</a></li>
+                    {% else %}
+                        <li><a href="/login">登录</a></li>
+                    {% endif %}
+                </ul>
+
+            </div>
+
+            <!-- 移动端的导航栏 -->
+            <form action="#" id="mobile-nav" class="visible-phone">
+                <div class="mobile-nav-select">
+                    <select onchange="window.open(this.options[this.selectedIndex].value,'_top')">
+                        <option value="">导航栏</option>
+                        <option value="index.htm">主页</option>
+                        <option value="index.htm">- 全显示</option>
+                        <option value="index-gallery.htm">- 只显示帖子列表</option>
+                        <option value="index-slider.htm">- 只显示轮播图</option>
+                        <option value="features.htm">选项1</option>
+                        <option value="page-full-width.htm">页面</option>
+                        <option value="page-full-width.htm">- 全显示</option>
+                        <option value="page-right-sidebar.htm">- 右边</option>
+                        <option value="page-left-sidebar.htm">- 左边</option>
+                        <option value="page-double-sidebar.htm">- 双边</option>
+                        <option value="page-contact.htm">联系我们</option>
+                    </select>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+    <!-- 3个结束 -->
+
+    <div style="margin-left:962px;margin-top:0px">
+                    <font size="5px">同类帖子推荐</font>
+    </div>
+
+    <!-- 内容 -->
+    <div class="row">
+
+
+        <!-- 帖子信息 -->
+        <div class="span12 gallery-single">
+
+            <div class="row">
+
+                <div class="span6" style="width:500px">
+                    <!-- 图片 -->
+                    <img src="{{ t_photo }}" style="height:500px;width:500px" class="align-left thumbnail" alt="image">
+                    <!-- 基本信息 -->
+                </div>
+
+
+                <div class="span6" style="width:400px;height:500px">
+                    <div style="margin-left: 60px">
+                    <h2>活动名称：{{ t_title }}</h2>
+                    <p>&nbsp</p>
+                    <p><font size="3">活动内容：{{ t_content }}</font></p>
+                    <p><font size="3">活动类型：{{ t_kind }}</font></p>
+                    <p><font size="3">活动地点：{{location_kind}}  {{location}}</font></p>
+                    <p><font size="3">活动人数：{{t_number}}</font></p>
+                    <p><font size="3">活动时间：{{t_time}}</font></p>
+                    <p><font size="3">{{contact_kind}}：{{t_contact}}</font></p>
+                    <p></p>
+                    </div>
+                </div>
+
+
+                {% for t in recommends_list %}
+                <div class="span6" style="width:100px;">
+                <li style="margin-right: 0px" class="span3 gallery-item" data-id="id-1" data-type="illustration">
+                    <div><img src="{{t.t_photo}}" alt="Gallery" width="80" height="80"></div>
+                    <a href="/single/{{t.id}}"><font size="4px" style="margin-left: 25px">{{t.t_title}}</font></a>
+                </li>
+                </div>
+                {% endfor %}
+
+            </div>
+    </div>
+
+
+    <!-- 留言模块 -->
+    <div class="row" style="width: 90%;float:left;margin-left:30px;">
+        <h2>我要留言</h2>
+        <form action="/single/{{ tid }}/" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div style="margin: 0 auto;">
+                <textarea style="width: 1075px;height: 200px;" cols="62" rows="20" name="r_content"></textarea>
+            </div>
+            {# <input type="submit" value="提交" style="float: right;margin-right:0px"> #}
+            <button  style="float:right;width:80px" class="layui-btn layui-btn-primary layui-border-red" type="submit">提交</button>
+        </form>
+    </div>
+
+
+
+    <!-- 评论区 -->
+    <div class="row" style="width: 90%;float:left;margin-left: 30px;">
+        <h2>所有留言</h2>
+        <div class="span12 gallery-single">
+            <div class="row">
+                <div class="span6" style="width: 90%;">
+                    <ul class="project-info">
+                        {% for r in reply_list %}
+                            <li>
+                                <h6>{{ r.r_uid }} 说:</h6> {{ r.r_content }}
+                                <span style="float: right;">{{ r.r_time }}</span>&nbsp;
+{#                                <a style="float: right;margin-right: 10px">回复</a>#}
+                                {% if admin_uid %}
+
+                                {% endif %}
+                                <a iddd="{{ r.r_id }}" onclick="deleter(this);" style="float: right;margin-right: 10px">删除</a>
+
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 评论区结束 -->
+
+
+</div>
+</div>
+
+<!-- 背景对应的div -->
+</div>
+
+
+
+
+<!-- 结尾部分 -->
+<div class="footer-container" style="width:1600px">
+    <div class="container">
+        <div style="margin-top: 30px" class="row">
+            <div class="span12 footer-col footer-sub">
+                <div class="row no-margin">
+                    <div class="span6"><span class="left">交集，上海交通大学活动论坛</span></div>
+                    <div class="span6">
+                            <span class="right">
+                                <a href="https://sports.sjtu.edu.cn/pc/#/">体育场馆预约</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                                <a href="http://studyroom.lib.sjtu.edu.cn/index.asp">小组自习室</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                                <a href="https://tongqu.sjtu.edu.cn/">同去网</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                                <a href="/contact">联系我们</a>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- 尾部结束 -->
+
+<!-- 回到顶端 -->
+<div id="toTop" class="hidden-phone hidden-tablet">回到顶端</div>
+
+
+<script>
+    function deleter(ths) {
+        var rid = $(ths).attr("iddd");
+        $.ajax({
+            url: window.location.href,
+            type: "POST",
+            data: {'type': 'delete','r_id': rid},
+            beforeSend: function (xhr, settings) {
+                xhr.setRequestHeader("X-CSRFToken", "{{ csrf_token }}");    // csrf
+            },
+            success: function (data) {
+                // data是服务器端返回的字符串
+                var dic = JSON.parse(data)
+                if (!dic.status) alert(JSON.parse(data).msg);
+                else window.location.href=window.location.href;
+            }
+        });
+    }
+</script>
+
+
+</body>
+</html>

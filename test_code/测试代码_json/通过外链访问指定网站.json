@@ -1,0 +1,807 @@
+[
+    {
+        "请求方式": "GET",
+        "请求链接": "https://sports.sjtu.edu.cn/pc/#/",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "Upgrade-Insecure-Requests",
+                "value": "1"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://sports.sjtu.edu.cn/pc/static/css/app.fcc59a1605493deaddd30879cd8a5452.css",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/css,*/*;q=0.1"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://webapi.amap.com/maps?v=1.4.13&key=d375aeb7d255ebe10bfa80f3e5f1924f",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://sports.sjtu.edu.cn/pc/static/js/manifest.bc4c80fc2517677b0f78.js",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://sports.sjtu.edu.cn/pc/static/js/vendor.cc69991453b61f0ef9d5.js",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://sports.sjtu.edu.cn/pc/static/js/app.b510aba83d79968ab34c.js",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://restapi.amap.com/v3/log/init?s=rsv3&product=JsInit&key=d375aeb7d255ebe10bfa80f3e5f1924f&t=1622544971138&resolution=1536*864&mob=0&vt=1&dpr=1.25&scale=1.25&detect=true&callback=jsonp_845538_&platform=JS&logversion=2.0&appname=https%3A%2F%2Fsports.sjtu.edu.cn%2Fpc%2F%23%2F&csid=7A5E1B70-BD84-4151-8DB8-D607AE83813D&sdkversion=1.4.16",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    },
+    {
+        "请求方式": "POST",
+        "请求链接": "https://sports.sjtu.edu.cn/system/operation/selectSystemOne",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "Accept",
+                "value": "application/json, text/plain, */*"
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://sports.sjtu.edu.cn/pc/static/js/0.d4b2607cbced30ecf00f.js",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://sports.sjtu.edu.cn/pc/static/js/6.f181251bf72e16f85c96.js",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://sports.sjtu.edu.cn/pc/static/img/logo.9868cae.jpg",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "POST",
+        "请求链接": "https://sports.sjtu.edu.cn/manage/motionType/typeList",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "Accept",
+                "value": "application/json, text/plain, */*"
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/json;charset=UTF-8"
+            }
+        ]
+    },
+    {
+        "请求方式": "POST",
+        "请求链接": "https://sports.sjtu.edu.cn/venue/notice/newSysNotice?typeId=1",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "Accept",
+                "value": "application/json, text/plain, */*"
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            }
+        ]
+    },
+    {
+        "请求方式": "POST",
+        "请求链接": "https://sports.sjtu.edu.cn/manage/venue/list",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "Accept",
+                "value": "application/json, text/plain, */*"
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+            }
+        ],
+        "请求内容": "flag=0&pageNum=1&pageSize=8&venueName="
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://sports.sjtu.edu.cn/pc/static/img/bigimg.53047fc.jpg",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://sports.sjtu.edu.cn/pc/static/fonts/element-icons.535877f.woff",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/5f54b1a4-a9a9-4300-8d6d-741dacbcb559",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/65ca8591-2ccb-4450-90b0-27e772068e45",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/9e5476d0-bec9-4bdb-88bf-2e5aaf279be9",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/a25821c8-d267-4266-a9d8-6bf758a11c20",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/82724459-8e15-4425-854b-4985bb9f942e",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/91ab14e3-493f-434f-949a-df5c3c797002",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/afbc1e3d-72c7-4463-9f11-111cb28c4ba5",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/f4c7ac7d-b527-4efe-a689-f4a08365fc3b",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/abef6d8c-b8aa-4044-a4ba-a57aa069543c",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/18542916-6386-460d-8df5-6812411de860",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/9ad4d2d1-9cca-4028-b1d1-15ecbcdf34da",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/68f92223-f160-4cb9-8119-976d800fc68b",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/38693031-0202-40ad-9374-c4b416091798",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/aaf8848f-ccb5-46ff-ab4e-25695365ed7b",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/4d9d1c1c-6a97-461c-b26a-76f02b8c964d",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/9cd3b04f-a47c-479f-bdfb-041fd3db218e",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/e354057b-e989-4808-8bdc-f6530e855e04",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/901b43ea-3ab9-4ff4-ad7e-c40e304fc91b",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/f9e586cf-08da-4c56-afd6-546671c0db90",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://api.sjtu.edu.cn/v1/file/922bdb8f-f0ee-44e8-97d9-e2a42a888f69",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    }
+]

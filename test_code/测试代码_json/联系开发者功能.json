@@ -1,0 +1,582 @@
+[
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/home",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "Upgrade-Insecure-Requests",
+                "value": "1"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/home/",
+        "头域内容": [
+            {
+                "name": "Upgrade-Insecure-Requests",
+                "value": "1"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+            },
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://fonts.googleapis.com/css?family=Oswald",
+        "头域内容": [
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/css,*/*;q=0.1"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/css/bootstrap.css",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/css,*/*;q=0.1"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/css/bootstrap-responsive.css",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/css,*/*;q=0.1"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/css/prettyPhoto.css",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/css,*/*;q=0.1"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/css/flexslider.css",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/css,*/*;q=0.1"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/css/custom-styles.css",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/css,*/*;q=0.1"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/layui/css/layui.css",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/css,*/*;q=0.1"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/layuiadmin/style/admin.css",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/css,*/*;q=0.1"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/layuiadmin/style/login.css",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/css,*/*;q=0.1"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/js/bootstrap.js",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "If-Modified-Since",
+                "value": "Tue, 01 Jun 2021 10:35:25 GMT"
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/js/jquery.prettyPhoto.js",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "If-Modified-Since",
+                "value": "Tue, 01 Jun 2021 10:35:26 GMT"
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/js/jquery.flexslider.js",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "If-Modified-Since",
+                "value": "Tue, 01 Jun 2021 10:35:26 GMT"
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/js/jquery.custom.js",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "If-Modified-Since",
+                "value": "Tue, 01 Jun 2021 10:35:25 GMT"
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://fonts.googleapis.com/css?family=Oswald",
+        "头域内容": [
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/css,*/*;q=0.1"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/img/page-bg-1.jpg",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "If-Modified-Since",
+                "value": "Tue, 01 Jun 2021 10:35:25 GMT"
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/background/home-3.png",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/img/back-top-btn.png",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "If-Modified-Since",
+                "value": "Tue, 01 Jun 2021 10:35:25 GMT"
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/contact",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "Upgrade-Insecure-Requests",
+                "value": "1"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/contact/",
+        "头域内容": [
+            {
+                "name": "Upgrade-Insecure-Requests",
+                "value": "1"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+            },
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://fonts.googleapis.com/css?family=Oswald",
+        "头域内容": [
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/css,*/*;q=0.1"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "https://fonts.googleapis.com/css?family=Oswald",
+        "头域内容": [
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "text/css,*/*;q=0.1"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/background/home-4.png",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/layui/font/iconfont.woff2?v=256",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    },
+    {
+        "请求方式": "GET",
+        "请求链接": "http://127.0.0.1:8000/static/layui/font/iconfont.woff2?v=256",
+        "头域内容": [
+            {
+                "name": "sec-ch-ua",
+                "value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"92\""
+            },
+            {
+                "name": "sec-ch-ua-mobile",
+                "value": "?0"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4498.0 Safari/537.36"
+            },
+            {
+                "name": "Accept",
+                "value": "*/*"
+            }
+        ]
+    }
+]
